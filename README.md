@@ -1,8 +1,12 @@
 # Tercer trimestre de Programación
+
 ## INDICE
 1. [indice](#INDICE)
 2. [resumen](#resumen)
-3. [Programa Principal](#programa-principal)
+3. [Estructura de clases](#estructura-de-clase)
+   - [Diagrama de clases](#diagrama-de-clases)
+   - [Contenido de las clases](#contenido-de-las-clases)
+4. [Programa Principal](#programa-principal)
 4. [Prueba](#pruebas)
 5. [Entrega](#entrega)
 
@@ -15,10 +19,20 @@ El programa se divide en dos partes:
 
 ## Estructura de clase
 
-## Programa principal
+El programa sigue el paradigma de **Programación Orientada a Objetos (POO)** y se basa en la siguiente estructura:
 
+## Diagrama de clases
+```` Plant UML
+
+````
+### Contenido de las clases
+```` Java
+    
+````
+## Programa principal
 
 ## Pruebas
 
-
 ## Entrega
+[ ] **Código fuente**: [Enlace a Github]
+(https://github.com/DemetrioGarcia/Estructuras/tree/main)
