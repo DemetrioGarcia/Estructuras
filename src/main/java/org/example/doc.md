@@ -35,4 +35,8 @@ El programa sigue el paradigma de **Programación Orientada a Objetos (POO)** y 
 
 ## Entrega
 [ ] **Código fuente**: [Enlace a Github]
+<<<<<<< HEAD:src/main/java/org/example/doc.md
 (https://github.com/DemetrioGarcia/Estructuras/tree/main)
+=======
+(https://github.com/DemetrioGarcia/Estructuras/tree/main)
+>>>>>>> 8a0f4e8aef7aa10ec03491f2d0d6fc6ac82814ff:README.md
