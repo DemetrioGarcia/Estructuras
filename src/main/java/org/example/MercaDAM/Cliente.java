@@ -10,7 +10,11 @@ public class Cliente {
 
 
     Cliente(String usuario, String contrasenya){
-
+        this.usuario = usuario;
+        this.contrasenya = contrasenya;
+        direccion="Calle falsa, 123";
+        pedido = null;
+        promociones = false;
     }
 
     public void crearPedido(){

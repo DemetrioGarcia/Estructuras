@@ -3,6 +3,7 @@ package org.example.MercaDAM;
 import java.lang.ref.SoftReference;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 public class Mercadam {
 
@@ -11,10 +12,20 @@ public class Mercadam {
 
     public void generarCliente(){
         String caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-        String usuario = "";
-        String contrasenya = "";
+        StringBuilder usuario = new StringBuilder();
+        StringBuilder contrasenya = new StringBuilder();
+        Random random = new Random();
 
-        Cliente cliente = new Cliente(usuario,contrasenya);
+        for (int i = 0; i < 8 ; i++) {
+
+            usuario.append(caracteres.charAt(random.nextInt(caracteres.length())));
+        }
+        for (int i = 0; i < 8 ; i++) {
+
+            contrasenya.append(caracteres.charAt(random.nextInt(caracteres.length())));
+        }
+        System.out.println(usuario+" "+contrasenya);
+        clientes.add(new Cliente(usuario.toString(), contrasenya.toString()));
     }
 
     public List<Cliente> getClientes(){
