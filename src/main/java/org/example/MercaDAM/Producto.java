@@ -1,4 +1,4 @@
-package org.example.MercaDAM;
+package org.example;
 
 public enum Producto {
 
@@ -13,6 +13,13 @@ public enum Producto {
     PASTA(0.89);
 
 
+    private double precio;
+
     Producto(double precio) {
+        this.precio = precio;
+    }
+
+    public double getPrecio() {
+        return precio;
     }
 }

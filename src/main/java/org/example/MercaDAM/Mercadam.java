@@ -1,13 +1,14 @@
-package org.example.MercaDAM;
+package org.example;
 
 import java.lang.ref.SoftReference;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
 public class Mercadam {
 
-    private List<Cliente> clientes;
+    private List<Cliente> clientes = new ArrayList<>();
 
 
     public void generarCliente(){
